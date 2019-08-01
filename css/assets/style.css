@@ -1,0 +1,42 @@
+
+.sideCol {
+	background-color: #878f99;
+}
+
+.mainCol {
+	 background-color: #A2B9BC;
+	 padding-bottom: 200px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#abouth1 {
+	padding-top: 10px;
+}
+
+.newColor {
+	background-color: #B2AD7F;
+}
+
+img {
+	border-radius: 50%;
+	width: 100px;
+}
+
+#mainIMG {
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .mainCol {
+    padding-left: 30px;;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pmod {
+    padding-top: 10px;;
+  }
+}
