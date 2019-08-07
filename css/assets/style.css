@@ -5,15 +5,11 @@
 
 .mainCol {
 	 background-color: #A2B9BC;
-	 padding-bottom: 200px;
+	 padding-bottom: 100px;
 }
 
 h1 {
 	text-align: center;
-}
-
-#abouth1 {
-	padding-top: 10px;
 }
 
 .newColor {
@@ -23,6 +19,7 @@ h1 {
 img {
 	border-radius: 50%;
 	width: 100px;
+	padding-bottom: 25px;
 }
 
 #mainIMG {
@@ -31,12 +28,29 @@ img {
 
 @media screen and (max-width: 768px) {
   .mainCol {
-    padding-left: 30px;;
+    padding-left: 30px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .pmod {
-    padding-top: 10px;;
+    padding-top: 10px;
   }
+}
+
+.profLinks {
+	text-decoration: none;
+	color: black;
+}
+
+.noBullets {
+	list-style-type: none;
+}
+
+p {
+	line-height: 35px;
+
+}
+.headers{
+	padding: 20px 20px 20px 20px;
 }
