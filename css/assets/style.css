@@ -29,6 +29,7 @@ img {
 @media screen and (max-width: 768px) {
   .mainCol {
     padding-left: 30px;
+    text-align: center;
   }
 }
 
@@ -45,10 +46,12 @@ img {
 
 .noBullets {
 	list-style-type: none;
+	text-align: center;
 }
 
 p {
 	line-height: 35px;
+	text-align: center;
 
 }
 .headers{
