@@ -2,9 +2,8 @@ h1, p, #mainIMG, .mainCol, .noBullets {
 	text-align: center;
 }
 
-img {
+.mainIMG {
 	border-radius: 50%;
-	width: 100px;
 	padding-bottom: 25px;
 }
 
@@ -47,4 +46,8 @@ p {
 
 .headers{
 	padding: 20px;
+}
+
+.picIcons {
+	height: 25px;
 }
