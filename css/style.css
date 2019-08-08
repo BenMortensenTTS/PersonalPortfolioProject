@@ -2,11 +2,6 @@ h1, p, #mainIMG, .mainCol, .noBullets {
 	text-align: center;
 }
 
-.mainIMG {
-	border-radius: 50%;
-	padding-bottom: 25px;
-}
-
 p {
 	line-height: 35px;
 }
@@ -50,4 +45,9 @@ p {
 
 .picIcons {
 	height: 25px;
+}
+
+.mainIMG {
+	border-radius: 50%;
+	padding-bottom: 25px;
 }
