@@ -1,19 +1,5 @@
-
-.sideCol {
-	background-color: #878f99;
-}
-
-.mainCol {
-	 background-color: #A2B9BC;
-	 padding-bottom: 100px;
-}
-
-h1 {
+h1, p, #mainIMG, .mainCol, .noBullets {
 	text-align: center;
-}
-
-.newColor {
-	background-color: #B2AD7F;
 }
 
 img {
@@ -22,14 +8,13 @@ img {
 	padding-bottom: 25px;
 }
 
-#mainIMG {
-	text-align: center;
+p {
+	line-height: 35px;
 }
 
 @media screen and (max-width: 768px) {
   .mainCol {
     padding-left: 30px;
-    text-align: center;
   }
 }
 
@@ -39,6 +24,18 @@ img {
   }
 }
 
+.sideCol {
+	background-color: #3AAFA9;
+}
+
+.mainCol {
+	 background-color: #BBE1E0;
+}
+
+.navColor {
+	background-color: #489B99;
+}
+
 .profLinks {
 	text-decoration: none;
 	color: black;
@@ -46,14 +43,8 @@ img {
 
 .noBullets {
 	list-style-type: none;
-	text-align: center;
 }
 
-p {
-	line-height: 35px;
-	text-align: center;
-
-}
 .headers{
-	padding: 20px 20px 20px 20px;
+	padding: 20px;
 }
